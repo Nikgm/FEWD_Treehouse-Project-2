@@ -1,0 +1,79 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bio{
+ padding: 10px;
+ overflow: auto;
+ font-size: 20px;
+}
+
+.profile-pic{
+    float: right;
+
+}
+body{
+    background-color: lightgray;
+}
+#contact{
+    border: solid 10px green;
+    padding: auto;
+}
+.image{
+    width: 20%;
+}
+.selection{
+    border: solid 10px pink;
+    display: block;
+    overflow: auto;
+}
+.head{
+    justify-content: center;
+    padding: 0% 1;
+    position: relative;
+}
+
+.top{
+    /*border: solid 10px black; */
+    content: border-box;
+    position: absolute;
+    display: inline;
+    margin: 0%;
+    bottom: 0;
+    right: 0;
+}
+li{
+    display: inline;
+    padding-right: 20px;
+}
+h1{
+    display: inline;
+}
+h2{
+    text-align: center;
+}
+h3{
+    display: inline;
+}
+.portfolio{
+    background-color: white;
+    margin: 10px;
+}
+
+.foot{
+    border: solid 10px black;
+    overflow: auto;
+    position: relative;
+}
+.bottom{
+    display: inline;    
+    content: border-box;
+    position: absolute;
+    margin: 0%;
+    bottom: 0;
+    right: 0;
+}
+p{
+    display: inline;
+    text-align: center;
+}
